@@ -7,20 +7,19 @@ public class App {
         // equals 'const' in JS 
         final int numbers = 500;
 
-        // data types: int, short, integer , long
+        // data types: byte, short, int, long
         // -128 <--> 127
         System.out.println("Byte: " + Byte.MIN_VALUE + " <--> " + Byte.MAX_VALUE);
 
+        // -32768 <--> 32767
+        System.out.println("Short: " + Short.MIN_VALUE + " <--> " + Short.MAX_VALUE);
         // -2147483648 <--> 2147483647
         System.out.println("Interger: " + Integer.MIN_VALUE + " <--> " + Integer.MAX_VALUE); 
         
         // -9223372036854775808 <--> 9223372036854775807
         System.out.println("Long: " + Long.MIN_VALUE + " <--> " + Long.MAX_VALUE); 
-        
-        // -32768 <--> 32767
-        System.out.println("Short: " + Short.MIN_VALUE + " <--> " + Short.MAX_VALUE);
 
-        // when the number is greater the an type: 'int'
+        // when a number is greater than type 'int'
         long population = 6000000000L;
         System.out.println(population);
 
