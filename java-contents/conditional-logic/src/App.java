@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        // operadores relacionais
+        // relacional operators
         // > >= < <= == !=
 
-        // operadores de atribuição condicional
+        // conditional operator
         int v1 = 10;
         int v2 = 0;
         int r = v2 > 0 ? v1 / v2 : 0;
@@ -41,7 +41,7 @@ public class App {
         boolean b1 = true;
         boolean b2 = false;
 
-            System.out.printf("b1 & b2 --> %b & %b = %b%n", b1, b2, b1 & b2);
+        System.out.printf("b1 & b2 --> %b & %b = %b%n", b1, b2, b1 & b2);
         System.out.printf("b1 | b2 --> %b | %b = %b%n", b1, b2, b1 | b2);
         System.out.printf("b1 ^ b2 --> %b ^ %b = %b%n", b1, b2, b1 ^ b2);
         System.out.printf("!b1 --> %b = %b%n", b1, !b1);
